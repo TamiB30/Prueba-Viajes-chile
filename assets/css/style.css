@@ -3,9 +3,26 @@
 }
 
 .section-destacados .img-destacados {
-    height: 150px;
+    height: 180px;
+}
+
+.card {
+    border-radius: 1px;
 }
 
 .card-body {
     background-color: #1ce0f6;
+    height: 180px;
+    /*vervdespues*/
+}
+
+.section-footer {
+    background-color: #1ce0f6;
+}
+
+@media (min-width: 992px) {
+    .carousel-container {
+        height: 100vh;
+        overflow: hidden;
+    }
 }
