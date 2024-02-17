@@ -27,7 +27,6 @@ body {
 .card-body {
     background-color: #1ce0f6;
     height: 180px;
-    /*vervdespues*/
 }
 
 .btn-color {
@@ -37,6 +36,23 @@ body {
 
 .section-footer {
     background-color: #1ce0f6;
+}
+
+.section-footer h3 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+@media (min-width:993px) {
+    .card {
+        transition: transform 0.4s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.2);
+        z-index: 1;
+    }
 }
 
 @media (min-width: 1350px) {
