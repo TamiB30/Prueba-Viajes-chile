@@ -6,7 +6,7 @@ $(document).ready(function () {
     })
 
     $("#quienes-somos figure").click(function () {
-        var tarjeta = $(this).closest('.col-md-4');
+        let tarjeta = $(this).closest('.col-md-4');
         tarjeta.find('.txt-quienes').toggle();
     });
 })
